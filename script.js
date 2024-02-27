@@ -454,7 +454,7 @@ const quizdata=[
       },
       {
         question:"Você precisa armazenar dados no armazenamento de Blobs do Azure por sete anos para atender aos requisitos de conformidade da sua empresa. O tempo de recuperação dos dados não é importante. A solução deve minimizar os custos de armazenamento. Qual camada de armazenamento você deve usar?",
-        options:["Arquivo", "Quente", "Legal"],
+        options:["Arquivo", "Frio", "Quente"],
         answer:"Arquivo",
         category:1
       },
@@ -630,6 +630,246 @@ const quizdata=[
         question:"Qual afirmação é um exemplo de linguagem de manipulação de dados (DML)?",
         options:["REVOKE", "DISABLE", "CREATE", "UPDATE"],
         answer:"UPDATE",
+        category:1
+      },
+      {
+        question:"VERDADEIRO ou FALSO: a normalização ajuda a reduzir a inconsistência de dados",
+        options:["VERDADEIRO", "FALSO"],
+        answer:"VERDADEIRO",
+        category:1
+      },
+      {
+        question:"VERDADEIRO ou FALSO: a normalização ajuda a reduzir a duplicação de dados em várias tabelas",
+        options:["VERDADEIRO", "FALSO"],
+        answer:"VERDADEIRO",
+        category:1
+      },
+      {
+        question:"Qual destes você pode usar para analisar se uma empresa varejista tem estoque de produtos suficiente para atender a demanda na Black Friday?",
+        options:["Análise descritiva", "Análise de diagnóstico", "Análise preditiva", "Análise Prescritiva"],
+        answer:"Análise preditiva",
+        category:1
+      },
+      {
+        question:"VERDADEIRO ou FALSO: você pode pausar o pool SQL no Azure Synapse Analytics para reduzir custos",
+        options:["VERDADEIRO", "FALSO"],
+        answer:"VERDADEIRO",
+        category:1
+      },
+      {
+        question:"Qual destes serviços do Azure é recomendado para armazenamento de dados e cargas de trabalho de big data?",
+        options:["REVBanco de dados SQL do AzureOKE", "Cache do Azure para Redis", "Análise do Azure Synapse"],
+        answer:"Análise do Azure Synapse",
+        category:1
+      },
+      {
+        question:"De quais destes serviços o Azure Databricks pode consumir dados?",
+        options:["Hub de Eventos do Azure", "SQL do Azure", "Azure Cosmos DB", "Tudo o que precede"],
+        answer:"Tudo o que precede",
+        category:1
+      },
+      {
+        question:"Em ELT (Extrair, Carregar e Transformar):",
+        options:["Os dados são carregados primeiro no armazenamento de dados de destino com processamento mínimo", "As transformações são feitas no armazenamento de dados de destino", "NÃO usamos um serviço separado para transformação", "Todas as opções acima"],
+        answer:"Todas as opções acima",
+        category:1
+      },
+      {
+        question:"Qual das afirmações a seguir é VERDADEIRA sobre o processamento em lote?",
+        options:["Os dados são processados quase em tempo real", "NÃO é possível processar grandes cargas de dados", "O processamento paralelo NÃO é possível", "O processamento em lote normalmente tem alta latência"],
+        answer:"O processamento em lote normalmente tem alta latência",
+        category:1
+      },
+      {
+        question:"VERDADEIRO ou FALSO: A normalização melhora a integridade dos dados",
+        options:["VERDADEIRO", "FALSO"],
+        answer:"VERDADEIRO",
+        category:1
+      },
+      {
+        question:"VERDADEIRO OU FALSO: Ao usar o Azure Data Factory para processamento em lote, os dados processados podem ser armazenados em bancos de dados relacionais, bancos de dados NoSql ou no Azure Blob Storage",
+        options:["VERDADEIRO", "FALSO"],
+        answer:"VERDADEIRO",
+        category:1
+      },
+      {
+        question:"VERDADEIRO ou FALSO: Em um índice clusterizado, os dados são armazenados em ordem aleatória",
+        options:["VERDADEIRO", "FALSO"],
+        answer:"FALSO",
+        category:1
+      },
+      {
+        question:"Você tem várias máquinas virtuais em execução no local e na nuvem. Você deseja mapear uma unidade compartilhada de rede conectada a todas essas máquinas. Quais destes serviços do Azure você recomendaria?",
+        options:["Disco de dados de máquina virtual", "Contêineres de Blobs do Azure", "Arquivos do Azure"],
+        answer:"Arquivos do Azure",
+        category:1
+      },
+      {
+        question:"VERDADEIRO ou FALSO: o cliente é responsável pela disponibilidade ao usar PaaS",
+        options:["VERDADEIRO", "FALSO"],
+        answer:"FALSO",
+        category:1
+      },
+      {
+        question:"VERDADEIRO ou FALSO: Em PaaS, o cliente tem acesso a instâncias de VM",
+        options:["VERDADEIRO", "FALSO"],
+        answer:"FALSO",
+        category:1
+      },
+      {
+        question:"VERDADEIRO ou FALSO: Em PaaS, o cliente pode personalizar o sistema operacional e instalar software personalizado",
+        options:["VERDADEIRO", "FALSO"],
+        answer:"FALSO",
+        category:1
+      },
+      {
+        question:"Qual serviço oferece suporte aos protocolos Server Message Block (SMB) e Network File System (NFS)?",
+        options:["Arquivos do Azure", "Armazenamento de Blobs do Azure", "Azure Cosmos DB"],
+        answer:"Arquivos do Azure",
+        category:1
+      },
+      {
+        question:"Decidir categoria de análise de dados: análise semântica de texto (analisar revisões)",
+        options:["Análise descritiva", "Análise de diagnóstico", "Análise preditiva", "Análise Cognitiva"],
+        answer:"Análise Cognitiva",
+        category:1
+      },
+      {
+        question:"Categorizar atividade: orquestre a atividade do pipeline com base na saída de outra atividade do pipeline",
+        options:["Movimentação de dados", "Transformação de dados", "Controle de fluxo"],
+        answer:"Controle de fluxo",
+        category:1
+      },
+      {
+        question:"Qual destes pode ser usado para conectar-se a uma fonte externa (armazenar detalhes de conexão externa) do Data Factory?",
+        options:["Serviço vinculado", "Gatilhos", "Tempo de execução de integração", "Pipeline"],
+        answer:"Serviço vinculado",
+        category:1
+      },
+      {
+        question:"Como é chamado o SaaS Online Power BI?",
+        options:["Serviço Power BI", "Power BI Desktop", "Criador de relatórios do Power BI"],
+        answer:"Serviço Power BI",
+        category:1
+      },
+      {
+        question:"Qual afirmação é um exemplo de linguagem de manipulação de dados (DML)?",
+        options:["REVOKE", "DISABLE", "CREATE", "UPDATE"],
+        answer:"UPDATE",
+        category:1
+      },
+      {
+        question:"SQL Server, Banco de Dados SQL do Azure e Postgresql podem ser acessados usando:",
+        options:["Estúdio de Dados Azure", "Microsoft SQL Server Management Studio", "Dados do Microsoft SQL Server", "Tudo o que precede"],
+        answer:"Estúdio de Dados Azure",
+        category:1
+      },
+      {
+        question:"Para quais destes casos de uso você recomendaria usar a réplica do banco de dados somente leitura do Banco de Dados SQL do Azure?",
+        options:["Garantir alta disponibilidade", "Transação de gravação distribuída", "Aplicativo de relatórios que apenas lê dados"],
+        answer:"Aplicativo de relatórios que apenas lê dados",
+        category:1
+      },
+      {
+        question:"VERDADEIRO ou FALSO: no Azure Data Factory, um pipeline NÃO PODE executar outro pipeline",
+        options:["VERDADEIRO", "FALSO"],
+        answer:"FALSO",
+        category:1
+      },
+      {
+        question:"VERDADEIRO ou FALSO: No Azure Data Factory, o Integration Runtime fornece infraestrutura de computação para executar as operações desejadas",
+        options:["VERDADEIRO", "FALSO"],
+        answer:"VERDADEIRO",
+        category:1
+      },
+      {
+        question:"VERDADEIRO ou FALSO: Treemaps são gráficos com retângulos coloridos aninhados dentro de um retângulo. O tamanho de um retângulo colorido representa valor",
+        options:["VERDADEIRO", "FALSO"],
+        answer:"VERDADEIRO",
+        category:1
+      },
+      {
+        question:"VERDADEIRO ou FALSO: A normalização envolve a eliminação de relacionamentos entre tabelas de banco de dados",
+        options:["VERDADEIRO", "FALSO"],
+        answer:"FALSO",
+        category:1
+      },
+      {
+        question:"VERDADEIRO ou FALSO: A normalização de um banco de dados reduz a redundância de dados",
+        options:["VERDADEIRO", "FALSO"],
+        answer:"VERDADEIRO",
+        category:1
+      },
+      {
+        question:"No Azure Data Factory, quais deles podem ser usados para agendar pipelines?",
+        options:["Serviço vinculado", "Gatilhos", "Tempo de execução de integração", "Pipeline"],
+        answer:"Gatilhos",
+        category:1
+      },
+      {
+        question:"VERDADEIRO ou FALSO: o conjunto de dados é uma representação de dados em armazenamentos de dados",
+        options:["VERDADEIRO", "FALSO"],
+        answer:"VERDADEIRO",
+        category:1
+      },
+      {
+        question:"Qual desses armazenamentos de dados pode ser usado para armazenar relacionamentos complexos entre dados? (Exemplo: Relação de Trabalho entre Funcionários em uma Organização)",
+        options:["API Gremlin do Cosmos DB", "Tabela Azure", "Armazenamento de Blobs do Azure", "Azure PostgreSQL"],
+        answer:"API Gremlin do Cosmos DB",
+        category:1
+      },
+      {
+        question:"Você deseja usar um armazenamento de dados de valor-chave para armazenar dados de sessão. Quais destes serviços do Azure você recomendaria?",
+        options:["API Gremlin do Azure Cosmos DB", "API de tabela do Azure Cosmos DB", "Armazenamento de Blobs do Azure", "Azure PostgreSQL"],
+        answer:"API de tabela do Azure Cosmos DB",
+        category:1
+      },
+      {
+        question:"Qual destas é uma tabela virtual que representa o conteúdo com base no conjunto de resultados da consulta? (Você pode juntar várias tabelas na consulta e/ou ter colunas calculadas)",
+        options:["Procedimento armazenado", "Visualizar", "Índice Clusterizado", "ESQUEMA"],
+        answer:"Visualizar",
+        category:1
+      },
+      {
+        question:"O Banco de Dados SQL do Azure e o Postgresql oferecem suporte ao mecanismo de autenticação multifator ao usar _________________",
+        options:["Conta de administrador local", "SSL mútuo", "Azure Active Directory (AAD)", "Identidade Gerenciada"],
+        answer:"Azure Active Directory (AAD)",
+        category:1
+      },
+      {
+        question:"Quais destes recursos da Instância Gerenciada de SQL do Azure NÃO são fornecidos pelo Banco de Dados SQL do Azure?",
+        options:["Azure Active Directory (AAD)", "Criptografia de dados transparente", "Backups automatizados", "Suporte nativo para consultas entre bancos de dados em uma única instância do SQL Server"],
+        answer:"Suporte nativo para consultas entre bancos de dados em uma única instância do SQL Server",
+        category:1
+      },
+      {
+        question:"Você pode restringir o acesso ao Banco de Dados SQL do Azure (permitir apenas um intervalo específico de endereços IP/rede virtual) usando _____________",
+        options:["Central de Segurança do Azure", "Grupo de Segurança de Rede", "Grupo de segurança de aplicativos", "Firewall em nível de servidor"],
+        answer:"Firewall em nível de servidor",
+        category:1
+      },
+      {
+        question:"A criação do Banco de Dados SQL do Azure pode ser automatizada usando ____________",
+        options:["Modelo ARM", "CLI do Azure", "AzurePowershell", "Tudo o que precede"],
+        answer:"Tudo o que precede",
+        category:1
+      },
+      {
+        question:"VERDADEIRO ou FALSO: O processamento em lote pode enviar dados para um armazenamento de arquivos",
+        options:["VERDADEIRO", "FALSO"],
+        answer:"VERDADEIRO",
+        category:1
+      },
+      {
+        question:"VERDADEIRO ou FALSO: O processamento em lote pode enviar dados para um banco de dados relacional",
+        options:["VERDADEIRO", "FALSO"],
+        answer:"VERDADEIRO",
+        category:1
+      },
+      {
+        question:"VERDADEIRO ou FALSO: O processamento em lote pode enviar dados para um banco de dados NoSQL",
+        options:["VERDADEIRO", "FALSO"],
+        answer:"VERDADEIRO",
         category:1
       }
     ];
