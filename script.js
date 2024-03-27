@@ -377,7 +377,7 @@ const quizdata=[
       {
         question:"Qual afirmação é um exemplo de linguagem de definição de dados (DDL)?",
         options:["SELECT", "JOIN", "UPDATE", "CREATE"],
-        answer:"DROP",
+        answer:"CREATE",
         category:1
       },
       {
@@ -870,6 +870,90 @@ const quizdata=[
         question:"VERDADEIRO ou FALSO: O processamento em lote pode enviar dados para um banco de dados NoSQL",
         options:["VERDADEIRO", "FALSO"],
         answer:"VERDADEIRO",
+        category:1
+      },
+	  {
+        question:"Um banco possui um sistema que gerencia transações financeiras. Ao transferir dinheiro entre contas, o sistema nunca deve recuperar um valor para a conta de origem que reflita o saldo antes da transferência e um valor para a conta de destino que reflita o saldo após a transferência. De qual semântica ACID este é um exemplo?",
+        options:["atomicidade", "isolamento", "durabilidade", "consistência"],
+        answer:"isolamento",
+        category:1
+      },
+	  {
+        question:"Qual oferta do Azure SQL oferece compatibilidade de quase IOO por cento com instâncias locais do Microsoft SQL Server, ao mesmo tempo em que fornece atualizações automatizadas, backups e tarefas de manutenção?",
+        options:["Instância Gerenciada de SQL do Azure", "SQL Server em máquinas virtuais do Azure", "SQL Edge do Azure", "Banco de dados SQL do Azure"],
+        answer:"Instância Gerenciada de SQL do Azure",
+        category:1
+      },
+      {
+        question:"Qual é uma característica dos dados não relacionais?",
+        options:["um esquema bem definido", "sem índices", "entidades autodescritivas", "sem valores-chave exclusivos"],
+        answer:"sem valores-chave exclusivos",
+        category:1
+      },
+      {
+        question:"Qual instrução T-SQL deve ser usada para instruir um sistema de gerenciamento de banco de dados a usar um índice em vez de realizar uma varredura completa da tabela?",
+        options:["WHERE", "SELECT", "JOIN"],
+        answer:"SELECT",
+        category:1
+      },
+      {
+        question:"Qual API do Azure Cosmos DB você deve usar para um banco de dados gráfico?",
+        options:["Azure Cosmos DB para Apache Gremlin", "Azure Cosmos DB para NoSQL", "Azure Cosmos DB para Apache Cassandra", "Azure Cosmos DB para Tabela"],
+        answer:"Azure Cosmos DB para Apache Gremlin",
+        category:1
+      },
+      {
+        question:"O que é usado para definir uma consulta em trabalhos de processamento de fluxo no Azure Stream Analytics?",
+        options:["XML", "KQL", "SQL", "YAML"],
+        answer:"SQL",
+        category:1
+      },
+      {
+        question:"Qual propriedade de transação do banco de dados garante que as alterações transacionais em um banco de dados sejam preservadas durante reinicializações inesperadas do sistema operacional?",
+        options:["consistência", "durabilidade", "isolamento", "atomicidade"],
+        answer:"durabilidade",
+        category:1
+      },
+      {
+        question:"Em um banco de dados totalmente desnormalizado, como os dados são lidos e gravados para uma única entidade?",
+        options:["Os dados são lidos de uma única tabela e gravados em uma única tabela.", "Os dados são lidos de várias tabelas e gravados em uma única tabela.", "Os dados são lidos de diversas tabelas e gravados em diversas tabelas.", "Os dados são lidos de uma única tabela e gravados em várias tabelas."],
+        answer:"Os dados são lidos de várias tabelas e gravados em uma única tabela.",
+        category:1
+      },
+      {
+        question:"Você tem um aplicativo bancário que transfere dinheiro de e para contas. De que tipo de solução este é um exemplo?",
+        options:["extrair, transformar e carregar (ETL)", "um armazém de dados", "processamento analítico on-line (OLAP)", "processamento de transações on-line (OLTP)"],
+        answer:"processamento de transações on-line (OLTP)",
+        category:1
+      },
+      {
+        question:"SELECT, INSERT e UPDATE são exemplos de que tipo de instrução SQL?",
+        options:["Linguagem de definição de dados (DDL)", "Linguagem de manipulação de dados (DML)", "Linguagem de controle de dados (DCL)"],
+        answer:"Linguagem de manipulação de dados (DML)",
+        category:1
+      },
+      {
+        question:"Em um modelo de dados analíticos, que tipo de tabela contém entidades usadas para agregar valores numéricos, onde cada entidade é representada por uma linha com um valor-chave exclusivo?",
+        options:["ponte", "dimensão", "facto"],
+        answer:"facto",
+        category:1
+      },
+      {
+        question:"Qual idioma é usado para definir consultas no Azure Synapse Data Explorer?",
+        options:["Bash", "PowerShell", "KQL", "SQL"],
+        answer:"KQL",
+        category:1
+      },
+      {
+        question:"Qual é a diferença entre dados estruturados e dados semiestruturados?",
+        options:["Os dados estruturados possuem um esquema fixo e os dados semiestruturados possuem um esquema flexível", "Somente dados estruturados oferecem suporte a entidades", "Os dados estruturados possuem um esquema flexível e os dados semiestruturados possuem um esquema fixo", "Somente dados estruturados oferecem suporte a atributos"],
+        answer:"Os dados estruturados possuem um esquema fixo e os dados semiestruturados possuem um esquema flexível",
+        category:1
+      },
+      {
+        question:"Que tipo de recurso do Azure dá suporte à configuração sem servidor de um banco de dados SQL do Azure?",
+        options:["Instância Gerenciada de SQL do Azure", "SQL Server em máquinas virtuais do Azure", "um único banco de dados no Banco de Dados SQL do Azure", "um pool elástico do Banco de Dados SQL do Azure"],
+        answer:"SQL Server em máquinas virtuais do Azure",
         category:1
       }
     ];
